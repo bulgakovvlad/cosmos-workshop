@@ -2,6 +2,8 @@
 
 ![Tgrade Guide by AnyValid](https://i.imgur.com/gGvPN5q.png)
 ____
+[Project Discord](https://discord.gg/VgFn3VQS42) | [Tgrade Dapp](https://dapp.tgrade.finance/) | [Tgrade Constisution on Russian](https://github.com/Ocean-Blue-Foundation/resources.tgrade.finance/blob/master/Tgrade_Constitution_rus.pdf) |  [Tgrade Constisution on English](https://github.com/Ocean-Blue-Foundation/resources.tgrade.finance/blob/master/Tgrade%20Constitution.pdf) 
+____
 Update and install necessary packages:
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
