@@ -16,7 +16,7 @@ echo 'export PATH="$GOBIN:$PATH"' >> ~/.profile && \
 source ~/.profile && \
 go version
 ```
-Clone repository and compile last version of binary (you can find releases here: [click](https://github.com/confio/tgrade/tags):
+Clone repository and compile last version of binary (you can find releases here: [click](https://github.com/confio/tgrade/tags)
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
