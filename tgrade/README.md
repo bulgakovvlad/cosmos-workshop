@@ -88,4 +88,17 @@ Start service and open journal:
 sudo systemctl restart tgrade
 sudo journalctl -u tgrade -f -o cat
 ```
-
+Wait for sync...
+Create validator (Do not forget to specify amount (1tgd = 1000000utgd) / keyname / moniker):
+```bash
+tgrade tx poe create-validator \
+  --amount 1000000utgd \
+  --vesting-amount 0utgd \
+  --from <keyname> \
+  --pubkey $(sudo tgrade tendermint show-validator) \
+  --chain-id tgrade-mainnet-1 \
+  --moniker "<your-validator-name>" \
+  --fees 200000utgd \
+  --gas auto \
+  --gas-adjustment 1.4
+```
