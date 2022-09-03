@@ -20,7 +20,7 @@ Clone repository and compile last version of binary (you can find releases here:
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout <last version>
+git checkout v$(curl -s https://tgrade-rpc.anyvalid.com/abci_info | jq -r .result[].version)
 make install
 ```
 Init your keys and download genesis file:
