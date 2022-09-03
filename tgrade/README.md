@@ -1,6 +1,6 @@
 # Tgrade mainnet validator's guide
 
-![Alt-текст](https://i.imgur.com/n2CbskM.png) "Tgrade Guide by AnyValid")
+![Tgrade Guide by AnyValid](https://i.imgur.com/n2CbskM.png)
 
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
