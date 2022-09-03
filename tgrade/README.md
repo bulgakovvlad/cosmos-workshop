@@ -88,7 +88,7 @@ Start service and open journal:
 sudo systemctl restart tgrade
 sudo journalctl -u tgrade -f -o cat
 ```
-Wait for sync...
+Wait for sync... <br>
 Create validator (Do not forget to specify amount (1tgd = 1000000utgd) / keyname / moniker):
 ```bash
 tgrade tx poe create-validator \
