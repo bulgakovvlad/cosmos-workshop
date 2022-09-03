@@ -2,7 +2,7 @@
 
 ![Tgrade Guide by AnyValid](https://i.imgur.com/gGvPN5q.png)
 
-Updating and installing the necessary packages:
+Updating and installing necessary packages:
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
 sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes && 
