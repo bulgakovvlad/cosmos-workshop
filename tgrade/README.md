@@ -65,7 +65,16 @@ Enable Tgrade daemon:
 sudo systemctl enable tgrade
 sudo systemctl daemon-reload
 ```
-## State Sync
+____
+## If you want to synchronize your node from the 0 block:
+Start Tgrade service and watch logs:
+```bash
+sudo systemctl restart tgrade
+sudo journalctl -u tgrade -f -o cat
+```
+____
+
+## Or you can quickly synchronize your node through State Sync:
 Stop existing service and reset database:
 ```bash
 sudo systemctl stop tgrade
