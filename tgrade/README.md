@@ -1,7 +1,7 @@
 # Tgrade mainnet validator's guide
 
 ![Tgrade Guide by AnyValid](https://i.imgur.com/gGvPN5q.png)
-
+____
 Update and install necessary packages:
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
