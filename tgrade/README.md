@@ -118,9 +118,11 @@ tgrade tx poe create-validator \
   --gas-adjustment 1.4
 ```
 After creating your own validator you can delegate more liquid and/or vesting tokens to your valiator on [Tgrade dapp](https://dapp.tgrade.finance/validators) or via command:
+```bash
 tgrade tx poe self-delegate <liquid tokens amount>utgd <vesting tokens amount>utgd \
   --from <keyname> \
   --gas auto \
   --gas-adjustment 1.4 \
   --chain-id tgrade-mainnet-1 \
   --fees 200000utgd 
+```
