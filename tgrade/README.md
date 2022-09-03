@@ -102,7 +102,7 @@ sudo systemctl restart tgrade
 sudo journalctl -u tgrade -f -o cat
 ```
 ____
-Wait for sync...
+*Wait for sync...*
 ____
 Create validator (Do not forget to specify amount (1tgd = 1000000utgd) / keyname / moniker):
 ```bash
