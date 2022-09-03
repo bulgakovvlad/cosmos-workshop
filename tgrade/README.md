@@ -1,5 +1,8 @@
 # Tgrade mainnet validator's guide
 
+![Alt-текст]([https://avatars1.githubusercontent.com/u/5384215?v=3&s=460](https://imgur.com/n2CbskM) "Tgrade Guide by AnyValid")
+
+
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
 sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes && 
