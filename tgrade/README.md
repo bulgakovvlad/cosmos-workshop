@@ -101,7 +101,9 @@ Start service and open journal:
 sudo systemctl restart tgrade
 sudo journalctl -u tgrade -f -o cat
 ```
-Wait for sync... <br>
+____
+Wait for sync...
+____
 Create validator (Do not forget to specify amount (1tgd = 1000000utgd) / keyname / moniker):
 ```bash
 tgrade tx poe create-validator \
@@ -115,3 +117,10 @@ tgrade tx poe create-validator \
   --gas auto \
   --gas-adjustment 1.4
 ```
+After creating your own validator you can delegate more liquid and/or vesting tokens to your valiator on [Tgrade dapp](https://dapp.tgrade.finance/validators) or via command:
+tgrade tx poe self-delegate <liquid tokens amount>utgd <vesting tokens amount>utgd \
+  --from <keyname> \
+  --gas auto \
+  --gas-adjustment 1.4 \
+  --chain-id tgrade-mainnet-1 \
+  --fees 200000utgd 
