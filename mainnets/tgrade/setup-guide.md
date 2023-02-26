@@ -56,7 +56,7 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $
 #### Step 6: Set up Tgrade service
 
 ```bash
-sudo tee <<EOF >/dev/null /etc/systemd/system/tgrade.service
+sudo tee /etc/systemd/system/tgrade.service > /dev/null <<EOF
 [Unit]
 Description=Tgrade daemon
 After=network-online.target
