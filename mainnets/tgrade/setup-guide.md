@@ -2,22 +2,15 @@
 description: Follow the guide to set up your Tgrade Mainnet node
 ---
 
-# Setup Guide
+# ⚙ Setup Guide
 
-<details>
+#### **Step 1: Update and install necessary packages**
 
-<summary>Step 1: Update and install necessary packages</summary>
+<pre class="language-bash"><code class="lang-bash"><strong>sudo apt update &#x26;&#x26; sudo apt upgrade --yes &#x26;&#x26; \
+</strong>sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes
+</code></pre>
 
-```bash
-sudo apt update && sudo apt upgrade --yes && \
-sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes
-```
-
-</details>
-
-<details>
-
-<summary>Step 2: Install Go</summary>
+#### **Step 2: Install Go**
 
 ```bash
 sudo snap install go --classic && \
@@ -28,11 +21,7 @@ source ~/.profile && \
 go version
 ```
 
-</details>
-
-<details>
-
-<summary>Step 3: Clone repo and compile binary (you can find releases here: <a href="https://github.com/confio/tgrade/tags">click</a>)</summary>
+#### Step 3: Clone repo and compile binary (you can find releases here: [click](https://github.com/confio/tgrade/tags))
 
 ```bash
 git clone https://github.com/confio/tgrade
@@ -41,11 +30,7 @@ git checkout v$(curl -s https://tgrade-rpc.anyvalid.com/abci_info | jq -r .resul
 make install
 ```
 
-</details>
-
-<details>
-
-<summary>Step 4: Init your keys and download genesis file</summary>
+#### Step 4: Init your keys and download genesis file
 
 ```bash
 tgrade init <moniker> --chain-id tgrade-mainnet-1
@@ -53,11 +38,7 @@ tgrade keys add <keyname>
 wget https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json -O /root/.tgrade/config/genesis.json
 ```
 
-</details>
-
-<details>
-
-<summary>Step 5: Set up gas_price / persistent_peers / pruning</summary>
+#### Step 5: Set up gas\_price / persistent\_peers / pruning
 
 ```bash
 sed -i "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.05utgd\"/;" $HOME/.tgrade/config/app.toml
@@ -72,11 +53,7 @@ sed -i -e "s/^pruning-keep-every *=.*/pruning-keep-every = \"$pruning_keep_every
 sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.tgrade/config/app.toml
 ```
 
-</details>
-
-<details>
-
-<summary>Step 6: Set up Tgrade service</summary>
+#### Step 6: Set up Tgrade service
 
 ```bash
 sudo tee <<EOF >/dev/null /etc/systemd/system/tgrade.service
@@ -96,31 +73,21 @@ WantedBy=multi-user.target
 EOF
 ```
 
-</details>
-
-<details>
-
-<summary>Step 7: Enable Tgrade daemon</summary>
+#### Step 7: Enable Tgrade daemon
 
 ```bash
 sudo systemctl enable tgrade
 sudo systemctl daemon-reload
 ```
 
-</details>
-
 ### If you want to synchronize your node from the 0 block:
 
-<details>
-
-<summary>Start Tgrade service and watch logs</summary>
+#### Start Tgrade service and watch logs
 
 ```bash
 sudo systemctl restart tgrade
 sudo journalctl -u tgrade -f -o cat
 ```
-
-</details>
 
 Or you can quickly synchronize your node through State Sync:
 

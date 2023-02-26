@@ -2,7 +2,7 @@
 description: Follow the guide to set up your AssetMantle Mainnet node
 ---
 
-# Setup Guide
+# ⚙ Setup Guide
 
 <details>
 

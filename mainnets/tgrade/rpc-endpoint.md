@@ -1,4 +1,4 @@
-# RPC Endpoint
+# 🌐 RPC Endpoint
 
 ### Seed Node - Tgrade's official seed node by AnyValid&#x20;
 

@@ -2,7 +2,7 @@
 description: Umee Faucet by AnyValid
 ---
 
-# Faucet
+# 🚰 Faucet
 
 ### You can drip from the faucet and get 0.1umee token for free
 

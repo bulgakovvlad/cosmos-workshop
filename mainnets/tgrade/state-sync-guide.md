@@ -1,4 +1,4 @@
-# State Sync Guide
+# 🔌 State Sync Guide
 
 <details>
 

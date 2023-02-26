@@ -1,4 +1,4 @@
-# RPC Endpoint
+# 🌐 RPC Endpoint
 
 ### RPC - You can use our high-performance RPC (Port 443)
 
