@@ -6,9 +6,10 @@ description: Follow the guide to set up your Tgrade Mainnet node
 
 #### **Step 1: Update and install necessary packages**
 
-<pre class="language-bash"><code class="lang-bash"><strong>sudo apt update &#x26;&#x26; sudo apt upgrade --yes &#x26;&#x26; \
-</strong>sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes
-</code></pre>
+```bash
+sudo apt update && sudo apt upgrade --yes && \
+sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes
+```
 
 #### **Step 2: Install Go**
 
