@@ -4,20 +4,14 @@ description: Follow the guide to set up your AssetMantle Mainnet node
 
 # ⚙ Setup Guide
 
-<details>
-
-<summary>Step 1: Update and install necessary packages</summary>
+#### Step 1: Update and install necessary packages
 
 ```bash
 sudo apt update && sudo apt upgrade --yes && \
 sudo apt install git build-essential ufw curl jq snapd screen ncdu nano fuse ufw --yes
 ```
 
-</details>
-
-<details>
-
-<summary>Step 2: Install Go</summary>
+#### Step 2: Install Go
 
 ```bash
 sudo snap install go --classic && \
@@ -28,13 +22,7 @@ source ~/.profile && \
 go version
 ```
 
-</details>
-
-<details>
-
-<summary>Step 3: Clone the repository and compile binary</summary>
-
-Visit AssetMantle [github page](https://github.com/AssetMantle/node) to find out the current version of binary
+#### Step 3: Clone the repository and compile binary
 
 ```bash
 git clone https://github.com/AssetMantle/node.git
@@ -43,11 +31,7 @@ git checkout tags/v0.3.0
 make install
 ```
 
-</details>
-
-<details>
-
-<summary>Step 4: Init your keys and download genesis file</summary>
+#### Step 4: Init your keys and download genesis file
 
 ```bash
 mantleNode init <moniker> --chain-id mantle-1
@@ -55,11 +39,7 @@ mantleNode keys add <keyname>
 curl https://raw.githubusercontent.com/AssetMantle/genesisTransactions/main/mantle-1/final_genesis.json > $HOME/.mantleNode/config/genesis.json
 ```
 
-</details>
-
-<details>
-
-<summary>Step 5: Set up AssetMantle system service</summary>
+#### Step 5: Set up AssetMantle system service
 
 ```bash
 sudo tee /etc/systemd/system/assetmantle.service > /dev/null <<EOF
@@ -81,31 +61,21 @@ WantedBy=multi-user.target
 EOF
 ```
 
-</details>
-
-<details>
-
-<summary>Step 6: Enable AssetMantle daemon</summary>
+#### Step 6: Enable AssetMantle daemon
 
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable assetmantle
 ```
 
-</details>
-
 ### If you want to synchronize your node from the 0 block:
 
-<details>
-
-<summary>Start AssetMantle service and watch logs</summary>
+#### Start AssetMantle service and watch logs
 
 ```bash
 sudo systemctl start assetmantle
 journalctl -u assetmantle -f -o cat
 ```
-
-</details>
 
 Or you can quickly synchronize your node through State Sync:
 
