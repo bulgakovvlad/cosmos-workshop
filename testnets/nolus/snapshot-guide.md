@@ -34,6 +34,6 @@ mv $HOME/priv_validator_state.json $HOME/.nolus/data/priv_validator_state.json
 #### Step 5: Start service and open journal
 
 ```bash
-sudo systemctl restart assetmantle
-sudo journalctl -u assetmantle -f -o cat
+sudo systemctl restart nolusd
+sudo journalctl -u nolusd -f -o cat
 ```
