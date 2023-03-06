@@ -21,3 +21,9 @@
   * [⚙ Setup Guide](mainnets/assetmantle/setup-guide.md)
   * [🔌 State Sync Guide](mainnets/assetmantle/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/assetmantle/rpc-endpoint.md)
+
+## Testnets
+
+* [Nolus](testnets/nolus/README.md)
+  * [🔌 Snapshot Guide](testnets/nolus/snapshot-guide.md)
+  * [🌐 RPC Endpoint](testnets/nolus/rpc-endpoint.md)
