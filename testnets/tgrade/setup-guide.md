@@ -92,6 +92,6 @@ sudo journalctl -u tgrade -f -o cat
 
 Or you can quickly synchronize your node through State Sync:
 
-{% content-ref url="../../mainnets/tgrade/state-sync-guide.md" %}
-[state-sync-guide.md](../../mainnets/tgrade/state-sync-guide.md)
+{% content-ref url="state-sync-guide.md" %}
+[state-sync-guide.md](state-sync-guide.md)
 {% endcontent-ref %}
