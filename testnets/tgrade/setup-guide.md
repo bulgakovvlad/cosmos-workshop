@@ -96,7 +96,7 @@ Or you can quickly synchronize your node through State Sync:
 [state-sync-guide.md](state-sync-guide.md)
 {% endcontent-ref %}
 
-When your node synced, ask tokens via Faucet in Discord, then you will be allowed to create your validator:
+When your node is synchronized, request some tokens via the Faucet in Discord, then you will be allowed to create your validator:
 
 ```bash
 tgrade tx poe create-validator \
