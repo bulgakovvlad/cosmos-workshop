@@ -95,3 +95,22 @@ Or you can quickly synchronize your node through State Sync:
 {% content-ref url="state-sync-guide.md" %}
 [state-sync-guide.md](state-sync-guide.md)
 {% endcontent-ref %}
+
+When your node synced, ask tokens via Faucet in Discord, then you will be allowed to create your validator:
+
+```bash
+tgrade tx poe create-validator \
+  --amount 1000000utgd \
+  --vesting-amount 0utgd \
+  --pubkey $(tgrade tendermint show-validator) \
+  --chain-id elizabeth-1 \
+  --moniker "<moniker>" \
+  --fees 200000utgd \
+  --gas auto \
+  --gas-adjustment 1.4 \
+  --from <keyname> \
+  --details="<details>" \
+  --security-contact="<security contact>" \
+  --website="<website>" \
+  --identity=<keybase id>
+```
