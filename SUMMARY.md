@@ -24,6 +24,10 @@
 
 ## Testnets
 
+* [Tgrade](testnets/tgrade/README.md)
+  * [⚙ Setup Guide](testnets/tgrade/setup-guide.md)
+  * [🔌 State Sync Guide](testnets/tgrade/state-sync-guide.md)
+  * [🌐 RPC Endpoint](testnets/tgrade/rpc-endpoint.md)
 * [Nolus](testnets/nolus/README.md)
   * [🔌 Snapshot Guide](testnets/nolus/snapshot-guide.md)
   * [🌐 RPC Endpoint](testnets/nolus/rpc-endpoint.md)
