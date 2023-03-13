@@ -14,11 +14,11 @@ tgrade tendermint unsafe-reset-all --keep-addr-book
 #### Step 2: Fill variables with data for State Sync
 
 ```bash
-RPC="http://116.202.162.210:26657"
+RPC="http://194.163.165.110:26657"
 RECENT_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height)
 TRUST_HEIGHT=$((RECENT_HEIGHT - 1000))
 TRUST_HASH=$(curl -s "$RPC/block?height=$TRUST_HEIGHT" | jq -r .result.block_id.hash)
-PEER="931600491332dd3f731c1407e0ae1226e2346729@194.163.165.110:26656"
+PEER="54724f2ddaa499d52518e935430c8e29495e596b@194.163.165.110:26656"
 ```
 
 #### Step 3: Add variable values to config.toml
