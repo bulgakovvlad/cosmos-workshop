@@ -27,7 +27,7 @@ go version
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v$(curl -s https://tgrade-rpc.anyvalid.com/abci_info | jq -r .result[].version)
+git checkout v$(curl -s https://tgrade-rpc.anyvalid.com:26637/abci_info | jq -r .result[].version)
 make install
 ```
 
