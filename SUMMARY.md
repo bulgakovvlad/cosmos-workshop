@@ -17,10 +17,9 @@
 * [Firmachain](mainnets/firmachain/README.md)
   * [🔌 State Sync Guide](mainnets/firmachain/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/firmachain/rpc-endpoint.md)
-* [AssetMantle](mainnets/assetmantle/README.md)
-  * [⚙ Setup Guide](mainnets/assetmantle/setup-guide.md)
-  * [🔌 State Sync Guide](mainnets/assetmantle/state-sync-guide.md)
-  * [🌐 RPC Endpoint](mainnets/assetmantle/rpc-endpoint.md)
+* [Humans](mainnets/humans/README.md)
+  * [🔌 State Sync Guide](mainnets/humans/state-sync-guide.md)
+  * [🌐 RPC Endpoint](mainnets/humans/rpc-endpoint.md)
 
 ## Testnets
 
@@ -28,6 +27,13 @@
   * [⚙ Setup Guide](testnets/tgrade/setup-guide.md)
   * [🔌 State Sync Guide](testnets/tgrade/state-sync-guide.md)
   * [🌐 RPC Endpoint](testnets/tgrade/rpc-endpoint.md)
-* [Nolus](testnets/nolus/README.md)
-  * [🔌 Snapshot Guide](testnets/nolus/snapshot-guide.md)
-  * [🌐 RPC Endpoint](testnets/nolus/rpc-endpoint.md)
+
+## Archive
+
+* [Nolus](archive/nolus/README.md)
+  * [🔌 Snapshot Guide](archive/nolus/snapshot-guide.md)
+  * [🌐 RPC Endpoint](archive/nolus/rpc-endpoint.md)
+* [AssetMantle](archive/assetmantle/README.md)
+  * [⚙ Setup Guide](archive/assetmantle/setup-guide.md)
+  * [🔌 State Sync Guide](archive/assetmantle/state-sync-guide.md)
+  * [🌐 RPC Endpoint](archive/assetmantle/rpc-endpoint.md)
