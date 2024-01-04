@@ -7,4 +7,4 @@ sudo apt install python3
 sudo apt install python3-pip
 pip3 install requests
 pip3 install datetime
-pip3 install tqdm```
+pip3 install tqdm
