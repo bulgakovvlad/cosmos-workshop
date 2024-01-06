@@ -18,6 +18,7 @@
   * [🔌 State Sync Guide](mainnets/firmachain/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/firmachain/rpc-endpoint.md)
 * [Humans](mainnets/humans/README.md)
+  * [⚙ Setup Guide](mainnets/humans/setup-guide.md)
   * [🔌 State Sync Guide](mainnets/humans/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/humans/rpc-endpoint.md)
 

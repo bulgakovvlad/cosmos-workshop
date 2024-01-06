@@ -1,6 +1,6 @@
 # 🌐 RPC Endpoint
 
-### RPC - You can use our high-performance RPC (Port 26617)
+### RPC - You can use our high-performance RPC (Port 26627)
 
 `https://humans-rpc.anyvalid.com:26627`
 
