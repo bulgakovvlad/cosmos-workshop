@@ -10,7 +10,7 @@ def get_block_heights(rpc_address):
         latest_block_height = data['result']['sync_info']['latest_block_height']
         return earliest_block_height, latest_block_height
     except Exception as e:
-        print(f"Error fetching block heights: {e}")
+        print(f"Error fetching block #: {e}")
         return None, None
 
 def count_transactions(rpc_address, start_block, end_block):
