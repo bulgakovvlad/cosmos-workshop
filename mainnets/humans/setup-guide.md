@@ -22,7 +22,7 @@ source ~/.profile && \
 go version
 ```
 
-#### Step 3: Clone repo and compile binary (you can find releases here: [click](https://github.com/confio/tgrade/tags))
+#### Step 3: Clone repo and compile binary (you can find releases here: [click](https://github.com/humansdotai/humans/releases))
 
 ```bash
 git clone https://github.com/humansdotai/humans

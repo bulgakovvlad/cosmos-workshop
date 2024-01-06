@@ -11,3 +11,7 @@ HUMANS is a next generation blockchain platform that brings together an ecosyste
 #### Project website:
 
 {% embed url="https://humans.ai" %}
+
+#### Project Discord:
+
+{% embed url="https://discord.gg/humansdotai" %}

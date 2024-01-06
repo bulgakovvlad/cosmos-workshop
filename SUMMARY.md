@@ -38,3 +38,10 @@
   * [⚙ Setup Guide](archive/assetmantle/setup-guide.md)
   * [🔌 State Sync Guide](archive/assetmantle/state-sync-guide.md)
   * [🌐 RPC Endpoint](archive/assetmantle/rpc-endpoint.md)
+
+***
+
+* [🗒 Contacts](contacts/README.md)
+  * [Website](https://anyvalid.com)
+  * [X](https://twitter.com/anyvalid)
+  * [Umee Faucet](https://umee.anyvalid.com)
