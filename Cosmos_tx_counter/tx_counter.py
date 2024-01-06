@@ -3,9 +3,6 @@ import requests
 from tqdm import tqdm
 
 def get_block_heights(rpc_address):
-    """
-    Retrieves the earliest and latest block heights from the given RPC server.
-    """
     try:
         response = requests.get(f"{rpc_address}/status")
         data = response.json()
@@ -37,7 +34,6 @@ def count_transactions(rpc_address, start_block, end_block):
             print(f"Error fetching block {block}: {e}")
 
     return transaction_count, total_transactions
-
 
 def main():
     rpc_address = input("Enter the RPC server address (default http://localhost:26657): ")
