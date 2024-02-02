@@ -1,7 +1,7 @@
 # 🌐 RPC Endpoint
 
-### RPC - You can use our high-performance RPC (Port 26617)
+RPC (port 26617) - `https://firmachain-rpc.anyvalid.com`
 
-`https://firmachain-rpc.anyvalid.com:26617`
+gRPC - `http://firmachain-grpc.anyvalid.com`
 
-{% embed url="https://firmachain-rpc.anyvalid.com:26617" %}
+API - `https://firmachain-api.anyvalid.com`

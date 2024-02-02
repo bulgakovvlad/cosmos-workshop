@@ -14,11 +14,11 @@ umeed tendermint unsafe-reset-all --keep-addr-book
 #### Step 2: Fill variables with data for State Sync
 
 ```bash
-RPC="https://umee-rpc.anyvalid.com:443"
+RPC="https://umee-rpc.anyvalid.com:26647"
 RECENT_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height)
-TRUST_HEIGHT=$((RECENT_HEIGHT - 500))
+TRUST_HEIGHT=$((RECENT_HEIGHT - 1000))
 TRUST_HASH=$(curl -s "$RPC/block?height=$TRUST_HEIGHT" | jq -r .result.block_id.hash)
-PEER="3c33623e0da8085a769b5aabd55d7f436e889018@5.9.87.205:26656"
+PEER="f827a823a54d1deb02324362c4b81f275e596621@88.99.140.176:26646"
 ```
 
 #### Step 3: Add variable values to config.toml

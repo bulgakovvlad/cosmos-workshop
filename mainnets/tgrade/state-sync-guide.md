@@ -16,9 +16,9 @@ tgrade tendermint unsafe-reset-all --keep-addr-book
 ```bash
 RPC="https://tgrade-rpc.anyvalid.com:26637"
 RECENT_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height)
-TRUST_HEIGHT=$((RECENT_HEIGHT - 500))
+TRUST_HEIGHT=$((RECENT_HEIGHT - 1000))
 TRUST_HASH=$(curl -s "$RPC/block?height=$TRUST_HEIGHT" | jq -r .result.block_id.hash)
-PEER="3121f0f1112c21da094aee9d4772f75346998c12@5.9.87.205:26636"
+PEER="f7dd1c57e6aecbe415af69613a6966b06f8b21c9@88.99.140.176:26636"
 ```
 
 #### Step 3: Add variable values to config.toml

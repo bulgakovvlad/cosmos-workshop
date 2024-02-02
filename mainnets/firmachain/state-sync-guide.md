@@ -18,7 +18,7 @@ RPC="https://firmachain-rpc.anyvalid.com:26617"
 RECENT_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height)
 TRUST_HEIGHT=$((RECENT_HEIGHT - 1000))
 TRUST_HASH=$(curl -s "$RPC/block?height=$TRUST_HEIGHT" | jq -r .result.block_id.hash)
-PEER="ab629fdf45a28aa94db79b53b24b4188cb366965@5.9.87.205:26616"
+PEER="e1b6bf686b1da507a36eb982aebbf9a0a372d3af@5.9.87.205:26616"
 ```
 
 #### Step 3: Add variable values to config.toml

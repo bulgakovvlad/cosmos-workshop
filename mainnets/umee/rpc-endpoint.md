@@ -1,7 +1,7 @@
 # 🌐 RPC Endpoint
 
-### RPC - You can use our high-performance RPC (Port 443)
+RPC (port 26647) - `https://umee-rpc.anyvalid.com`
 
-`https://umee-rpc.anyvalid.com:443`
+gRPC - `http://umee-grpc.anyvalid.com`
 
-{% embed url="https://umee-rpc.anyvalid.com" %}
+API - `https://umee-api.anyvalid.com`

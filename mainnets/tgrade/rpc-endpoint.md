@@ -1,7 +1,7 @@
 # 🌐 RPC Endpoint
 
-### RPC - You can use our high-performance archive RPC (Port 26637)
+RPC (port 26637) - `https://tgrade-rpc.anyvalid.com`
 
-`https://tgrade-rpc.anyvalid.com:26637`
+gRPC - `http://tgrade-grpc.anyvalid.com`
 
-{% embed url="https://tgrade-rpc.anyvalid.com:26637" %}
+API - `https://tgrade-api.anyvalid.com`

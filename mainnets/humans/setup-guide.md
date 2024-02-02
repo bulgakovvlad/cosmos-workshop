@@ -27,7 +27,7 @@ go version
 ```bash
 git clone https://github.com/humansdotai/humans
 cd humans
-git checkout v$(curl -s https://humans-rpc.anyvalid.com:26627/abci_info | jq -r .result[].version)
+git checkout v$(curl -s https://humans-rpc.anyvalid.com/abci_info | jq -r .result[].version)
 make install
 ```
 

@@ -18,7 +18,7 @@ RPC="https://humans-rpc.anyvalid.com:26627"
 RECENT_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height)
 TRUST_HEIGHT=$((RECENT_HEIGHT - 1000))
 TRUST_HASH=$(curl -s "$RPC/block?height=$TRUST_HEIGHT" | jq -r .result.block_id.hash)
-PEER="04cf10e1d77a6dd3b8c61a1aaddf79850bac0001@5.9.87.205:26626"
+PEER="48e2576d3542b9362beb4112706f5667c3582078@88.99.140.176:26626"
 ```
 
 #### Step 3: Add variable values to config.toml
