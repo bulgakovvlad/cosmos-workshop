@@ -1,5 +1,5 @@
 ---
-description: Homeof the RollApps
+description: Home of the RollApps
 ---
 
 # Dymension
