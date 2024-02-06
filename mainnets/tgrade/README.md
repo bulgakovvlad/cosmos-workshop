@@ -1,13 +1,13 @@
 ---
-description: A public, decentralised blockchain
+description: Homeof the RollApps
 ---
 
 # Dymension
 
-The case for a public, decentralised, secure blockchain is strong. Public blockchains are resilient by design as they are run by a group of independent node operators who are aligned through a framework of incentives and punishments.
+Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.
 
-Tgrade is a chain that has been designed to support high value businesses in a very secure and decentralised model that is robust and safe.
+Easily deploy your own consensus-free blockchain and accrue more token value with greater security.
 
 #### Project website:
 
-{% embed url="https://tgrade.finance/" %}
+{% embed url="https://dymension.xyz" %}
