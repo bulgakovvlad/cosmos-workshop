@@ -6,14 +6,18 @@
 
 ## Mainnets
 
+* [Dymension](mainnets/tgrade/README.md)
+  * [⚙ Setup Guide](mainnets/tgrade/setup-guide.md)
+  * [🔌 State Sync Guide](mainnets/tgrade/state-sync-guide.md)
+  * [🌐 RPC Endpoint](mainnets/tgrade/rpc-endpoint.md)
 * [Umee](mainnets/umee/README.md)
   * [🔌 State Sync Guide](mainnets/umee/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/umee/rpc-endpoint.md)
   * [🚰 Faucet](mainnets/umee/faucet.md)
-* [Tgrade](mainnets/tgrade/README.md)
-  * [⚙ Setup Guide](mainnets/tgrade/setup-guide.md)
-  * [🔌 State Sync Guide](mainnets/tgrade/state-sync-guide.md)
-  * [🌐 RPC Endpoint](mainnets/tgrade/rpc-endpoint.md)
+* [Tgrade](mainnets/tgrade-1/README.md)
+  * [⚙ Setup Guide](mainnets/tgrade-1/setup-guide.md)
+  * [🔌 State Sync Guide](mainnets/tgrade-1/state-sync-guide.md)
+  * [🌐 RPC Endpoint](mainnets/tgrade-1/rpc-endpoint.md)
 * [Humans](mainnets/humans/README.md)
   * [⚙ Setup Guide](mainnets/humans/setup-guide.md)
   * [🔌 State Sync Guide](mainnets/humans/state-sync-guide.md)

@@ -1,7 +1,7 @@
 # 🌐 RPC Endpoint
 
-RPC (port 26637) - `https://tgrade-rpc.anyvalid.com`
+RPC (port 26607) - `https://dymension-rpc.anyvalid.com`
 
-gRPC - `http://tgrade-grpc.anyvalid.com`
+gRPC - `http://dymension-grpc.anyvalid.com`
 
-API - `https://tgrade-api.anyvalid.com`
+API - `https://dymension-api.anyvalid.com`

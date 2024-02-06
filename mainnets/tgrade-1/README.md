@@ -2,7 +2,7 @@
 description: A public, decentralised blockchain
 ---
 
-# Dymension
+# Tgrade
 
 The case for a public, decentralised, secure blockchain is strong. Public blockchains are resilient by design as they are run by a group of independent node operators who are aligned through a framework of incentives and punishments.
 
