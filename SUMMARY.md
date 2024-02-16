@@ -26,13 +26,6 @@
   * [🔌 State Sync Guide](mainnets/firmachain/state-sync-guide.md)
   * [🌐 RPC Endpoint](mainnets/firmachain/rpc-endpoint.md)
 
-## Testnets
-
-* [Tgrade](testnets/tgrade/README.md)
-  * [⚙ Setup Guide](testnets/tgrade/setup-guide.md)
-  * [🔌 State Sync Guide](testnets/tgrade/state-sync-guide.md)
-  * [🌐 RPC Endpoint](testnets/tgrade/rpc-endpoint.md)
-
 ## Archive
 
 * [Nolus](archive/nolus/README.md)
