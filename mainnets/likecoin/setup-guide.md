@@ -96,6 +96,6 @@ sudo journalctl -u liked -f -o cat
 
 Or you can quickly synchronize your node through State Sync:
 
-{% content-ref url="../humans/state-sync-guide.md" %}
-[state-sync-guide.md](../humans/state-sync-guide.md)
+{% content-ref url="state-sync-guide.md" %}
+[state-sync-guide.md](state-sync-guide.md)
 {% endcontent-ref %}
