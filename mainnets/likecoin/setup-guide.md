@@ -27,7 +27,7 @@ go version
 ```bash
 git clone https://github.com/likecoin/likecoin-chain
 cd likecoin-chain
-git checkout v$(curl -s https://likecoin-rpc.anyvalid.com/abci_info | jq -r .result[].version)
+git checkout v4.2.0
 make install
 ```
 
